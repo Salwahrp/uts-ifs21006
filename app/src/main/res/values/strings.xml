@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_dino_photo">Foto Dinow</string>
+    <string name="info_dino_name">Nama Dinow</string>
+    <string name="info_dino_family">Family Dinow</string>
+    <string name="info_dino_deskripsi">Deskripsi Dinow</string>
+    <string name="info_dino_periode">Periode Hidup Dinow</string>
+    <string name="info_dino_karakterFisik">Karakteristik Fisik Dinow</string>
+    <string name="info_dino_habitat">Habitat Dinow</string>
+    <string name="info_dino_perilaku">Perilaku Dinow</string>
+
+    <string-array name="dino_name">
+        <item>Theropoda</item>
+        <item>Sauropoda</item>
+        <item>Ornithopoda</item>
+        <item>Stegosauria</item>
+        <item>Ankylosauria</item>
+        <item>Ceratopsia</item>
+        <item>Hadrosauridae</item>
+        <item>Therizinosauria</item>
+    </string-array>
+
+    <string-array name="family_dino_photo">
+        <item>@drawable/ic_theropoda</item>
+        <item>@drawable/ic_sauropoda</item>
+        <item>@drawable/ic_ornithopoda</item>
+        <item>@drawable/ic_stegosauria</item>
+        <item>@drawable/ic_ankylosauria</item>
+        <item>@drawable/ic_ceratopsia</item>
+        <item>@drawable/ic_hadrosauridae</item>
+        <item>@drawable/ic_therizinosauria</item>
+    </string-array>
+
+    <string-array name="dino_family">
+        <item>Theropoda</item>
+        <item>Sauropoda</item>
+        <item>Ornithopoda</item>
+        <item>Stegosauria</item>
+        <item>Ankylosauria</item>
+        <item>Ceratopsia</item>
+        <item>Hadrosauridae</item>
+        <item>Therizinosauria</item>
+    </string-array>
+
+    <string-array name="dino_deskripsi">
+        <item>Keluarga dinosaurus karnivora dengan cakar tajam, gigi taring, dan kaki yang kuat.</item>
+        <item>Dinosaurus herbivora berleher panjang dan tubuh besar.</item>
+        <item>Dinosaurus herbivora dengan kaki yang kuat dan paruh seperti bebek.</item>
+        <item>Dinosaurus dengan punggung dilengkapi lempengan tulang dan cakar bercabang.</item>
+        <item>Dinosaurus dengan tubuh dilindungi oleh cangkang dan pelat tulang serta biasanya memiliki gada ekor</item>
+        <item>Dinosaurus dengan tanduk dan lempengan pada tengkorak</item>
+        <item>Dinosaurus herbivora dengan paruh seperti bebek dan sering berjalan dengan dua atau empat kaki.</item>
+        <item>Dinosaurus dengan cakar panjang dan melengkung, sering kali dianggap sebagai herbivora.</item>
+    </string-array>
+
+    <string-array name="dino_periode">
+        <item>Zaman Mesozoikum</item>
+        <item>Zaman Mesozoikum</item>
+        <item>Zaman Mesozoikum</item>
+        <item>Zaman Jura Akhir</item>
+        <item>Zaman Mesozoikum</item>
+        <item>Zaman Mesozoikum</item>
+        <item>Zaman Kapur</item>
+        <item>Zaman Kapur Akhir</item>
+    </string-array>
+
+    <string-array name="dino_karakteristik">
+        <item>Dinosaurus karnivora dengan gigi tajam dan cakar yang kuat.</item>
+        <item>Dinosaurus herbivora dengan leher panjang dan tubuh besar.</item>
+        <item>Dinosaurus herbivora dengan paruh seperti bebek dan kaki yang kuat.</item>
+        <item>Dinosaurus dengan punggung dilapisi lempengan tulang.</item>
+        <item>Dinosaurus dilindungi oleh cangkang keras atau pelat tulang.</item>
+        <item>Dinosaurus dengan tanduk dan lempengan pada tengkorak.</item>
+        <item>Dinosaurus dengan paruh seperti bebek dan sering berjalan dengan dua atau empat kaki.</item>
+        <item>Dinosaurus dengan cakar panjang dan melengkung, mungkin herbivora.</item>
+    </string-array>
+
+    <string-array name="dino_habitat">
+        <item>Dataran terbuka atau savana</item>
+        <item>Hutan datar atau dataran rendah yang luas</item>
+        <item>Padang rumput atau hutan datar</item>
+        <item>Wilayah bervegetasi tebal </item>
+        <item>Hutan atau dataran rendah</item>
+        <item>Dataran rendah atau hutan datar </item>
+        <item>Padang rumput atau dataran rendah </item>
+        <item>Hutan yang lebat atau daerah bervegetasi tebal </item>
+    </string-array>
+
+    <string-array name="dino_perilaku">
+        <item>Pemburu soliter atau berburu dalam kelompok kecil</item>
+        <item>Dikenal karena perilaku herbivora yang tenang</item>
+        <item>Bergerak dalam kelompok besar untuk mencari makan</item>
+        <item>Defensif dengan menggunakan lempengan tulang punggung</item>
+        <item>Cenderung menjadi herbivora yang pemalu dan bergerak lambat</item>
+        <item>Mungkin menunjukkan perilaku sosial kompleks, berkomunikasi dengan cara yang rumit </item>
+        <item>Dikenal karena perilaku bergerombol yang kuat, mencari makan dan bergerak bersama-sama</item>
+        <item>Menunjukkan perilaku makan yang rumit, menggunakan cakar panjang mereka untuk mencabik dedaunan tinggi</item>
+    </string-array>
+
+</resources>
