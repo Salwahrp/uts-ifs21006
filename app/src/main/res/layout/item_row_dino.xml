@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="16dp">
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="23dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,20 +27,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="23dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:text="Nama Dinosaurus"
-            android:textSize="23sp" />
+            android:textSize="23sp"
+            android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btnApa"
-            android:layout_width="81dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="1dp"
+        <ImageView
+            android:id="@+id/iNext"
+            android:layout_width="5dp"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:text="Lihat" />
+            android:clickable="true"
+            android:contentDescription="Menuju ke DeskripActivity"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_next"
+            tools:ignore="TouchTargetSizeCheck" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="269dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tDescDino"
+            android:layout_width="245dp"
+            android:layout_height="64dp"
+            android:text="@string/info_dino_deskripsi" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

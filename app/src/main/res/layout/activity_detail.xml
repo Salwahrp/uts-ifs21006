@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/app_name"
     tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailActivity">
 
     <TextView
         android:id="@+id/tNamaDino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="140dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="152dp"
         android:text="Nama Dinosaur"
         android:textSize="26sp" />
 
@@ -22,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="185dp"
+        android:layout_marginTop="194dp"
         android:text="Deskripsi"
         android:textSize="16sp" />
 
@@ -47,10 +52,10 @@
 
     <ImageView
         android:id="@+id/iPhotoDino"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginLeft="145dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="18dp"
         app:srcCompat="@drawable/ic_theropoda" />
 
     <TextView
@@ -72,24 +77,24 @@
         android:text="PeriodeDino"
         android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/karakteristik"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="365dp"
-        android:text="Karakteristik"
-        android:textSize="19sp"
-        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/karakteristik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="375dp"
+            android:text="Karakteristik"
+            android:textSize="19sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/tKarakteristikDino"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="395dp"
-        android:text="KarakteristikDino"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tKarakteristikDino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="405dp"
+            android:text="KarakteristikDino"
+            android:textSize="16sp" />
 
     <TextView
         android:id="@+id/habitat"
@@ -129,4 +134,14 @@
         android:text="PerilakuDino"
         android:textSize="16sp" />
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/ic_back" />
+
+    </RelativeLayout>
+
+</ScrollView>

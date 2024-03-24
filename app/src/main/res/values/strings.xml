@@ -43,14 +43,14 @@
     </string-array>
 
     <string-array name="dino_deskripsi">
-        <item>Keluarga dinosaurus karnivora dengan cakar tajam, gigi taring, dan kaki yang kuat.</item>
-        <item>Dinosaurus herbivora berleher panjang dan tubuh besar.</item>
-        <item>Dinosaurus herbivora dengan kaki yang kuat dan paruh seperti bebek.</item>
-        <item>Dinosaurus dengan punggung dilengkapi lempengan tulang dan cakar bercabang.</item>
-        <item>Dinosaurus dengan tubuh dilindungi oleh cangkang dan pelat tulang serta biasanya memiliki gada ekor</item>
+        <item>Keluarga dinosaurus karnivora dengan cakar tajam, gigi taring, dan kaki yang kuat</item>
+        <item>Dinosaurus herbivora berleher panjang dan tubuh besar</item>
+        <item>Dinosaurus herbivora dengan kaki yang kuat dan paruh seperti bebek</item>
+        <item>Dinosaurus dengan punggung dilengkapi lempengan tulang dan cakar bercabang</item>
+        <item>Dinosaurus dengan tubuh dilindungi oleh cangkang dan pelat tulang serta biasanya memiliki ekor</item>
         <item>Dinosaurus dengan tanduk dan lempengan pada tengkorak</item>
-        <item>Dinosaurus herbivora dengan paruh seperti bebek dan sering berjalan dengan dua atau empat kaki.</item>
-        <item>Dinosaurus dengan cakar panjang dan melengkung, sering kali dianggap sebagai herbivora.</item>
+        <item>Dinosaurus herbivora dengan paruh seperti bebek dan sering berjalan dengan dua atau empat kaki</item>
+        <item>Dinosaurus dengan cakar panjang dan melengkung, sering kali dianggap sebagai herbivora</item>
     </string-array>
 
     <string-array name="dino_periode">
@@ -95,6 +95,318 @@
         <item>Mungkin menunjukkan perilaku sosial kompleks, berkomunikasi dengan cara yang rumit </item>
         <item>Dikenal karena perilaku bergerombol yang kuat, mencari makan dan bergerak bersama-sama</item>
         <item>Menunjukkan perilaku makan yang rumit, menggunakan cakar panjang mereka untuk mencabik dedaunan tinggi</item>
+    </string-array>
+
+    <string-array name="jenis1_dino_photo">
+        <item>@drawable/cj1_tyrannosaurus</item>
+        <item>@drawable/cj1_velociraptor</item>
+    </string-array>
+
+    <string-array name="jenis2_dino_photo">
+        <item>@drawable/cj2_apatosaurus</item>
+        <item>@drawable/cj2_sauroposeidon</item>
+    </string-array>
+
+    <string-array name="jenis3_dino_photo">
+        <item>@drawable/cj3_hypsilophodon</item>
+        <item>@drawable/cj3_iguanodon</item>
+    </string-array>
+
+    <string-array name="jenis4_dino_photo">
+        <item>@drawable/cj4_kentrosaurus</item>
+        <item>@drawable/cj4_stegosaurus</item>
+    </string-array>
+
+    <string-array name="jenis5_dino_photo">
+        <item>@drawable/cj5_ankylosaurus</item>
+    </string-array>
+
+    <string-array name="jenis6_dino_photo">
+        <item>@drawable/cj6_protoceratops</item>
+        <item>@drawable/cj6_triceratops</item>
+    </string-array>
+
+    <string-array name="jenis7_dino_photo">
+        <item>@drawable/cj7_edmontosaurus</item>
+        <item>@drawable/cj7_maiasaura</item>
+        <item>@drawable/cj7_parasaurolophus</item>
+    </string-array>
+
+    <string-array name="jenis8_dino_photo">
+        <item>@drawable/cj8_nothronychus</item>
+    </string-array>
+
+    <string-array name="jenis1_dino_name">
+        <item>Tyrannosaurus</item>
+        <item>Velociraptor</item>
+    </string-array>
+
+    <string-array name="jenis2_dino_name">
+        <item>Apatosaurus</item>
+        <item>Sauroposeidon</item>
+    </string-array>
+
+    <string-array name="jenis3_dino_name">
+        <item>Hypsilophodon</item>
+        <item>Iguanodon</item>
+    </string-array>
+
+    <string-array name="jenis4_dino_name">
+        <item>Kentrosaurus</item>
+        <item>Stegosaurus</item>
+    </string-array>
+
+    <string-array name="jenis5_dino_name">
+        <item>Ankylosaurus</item>
+    </string-array>
+
+    <string-array name="jenis6_dino_name">
+        <item>Protoceratops</item>
+        <item>Triceratops</item>
+    </string-array>
+
+    <string-array name="jenis7_dino_name">
+        <item>Edmontosaurus</item>
+        <item>Maiasaura</item>
+        <item>Parasaurolophus</item>
+    </string-array>
+
+    <string-array name="jenis8_dino_name">
+        <item>Nothronychus</item>
+    </string-array>
+
+    <string-array name="jenis1_dino_deskripsi">
+        <item>Tyrannosaurus rex adalah dinosaurus karnivora raksasa dari periode Kapur Akhir.</item>
+        <item>Velociraptor adalah dinosaurus karnivora yang kecil dan cerdas, sering digambarkan dalam film Jurassic Park.</item>
+    </string-array>
+
+    <string-array name="jenis2_dino_deskripsi">
+        <item>Apatosaurus adalah jenis dinosaurus sauropoda yang memiliki leher panjang dan tubuh besar.</item>
+        <item>Sauroposeidon adalah dinosaurus sauropoda raksasa yang memiliki leher yang sangat panjang dan tinggi.</item>
+    </string-array>
+
+    <string-array name="jenis3_dino_deskripsi">
+        <item>Apatosaurus adalah jenis dinosaurus sauropoda yang memiliki leher panjang dan tubuh besar.</item>
+        <item>Sauroposeidon adalah dinosaurus sauropoda raksasa yang memiliki leher yang sangat panjang dan tinggi.</item>
+    </string-array>
+
+    <string-array name="jenis4_dino_deskripsi">
+        <item>Dinosaurus herbivora yang memiliki tubuh kecil dengan duri yang menonjol di bagian punggungnya</item>
+        <item>Dinosaurus herbivora besar dengan ciri khas deretan lempeng tulang di punggungnya</item>
+    </string-array>
+
+    <string-array name="jenis5_dino_deskripsi">
+        <item>Dinosaurus herbivora bertubuh besar dengan pelindung keras dan gada di ekornya.</item>
+    </string-array>
+
+    <string-array name="jenis6_dino_deskripsi">
+        <item>Dinosaurus bertanduk rendah dengan tubuh kecil, hidup pada periode Kapur Awal.</item>
+        <item>Dinosaurus bertanduk besar dengan tiga tanduk di kepala dan perisai besar di lehernya.</item>
+    </string-array>
+
+    <string-array name="jenis7_dino_deskripsi">
+        <item>Dinosaurus herbivora berukuran besar dengan moncong seperti bebek.</item>
+        <item>Dinosaurus herbivora berukuran sedang dengan ciri-ciri unik yaitu merawat anak-anaknya.</item>
+        <item>Dinosaurus herbivora berukuran besar dengan crested head yang panjang.</item>
+    </string-array>
+
+    <string-array name="jenis8_dino_deskripsi">
+        <item>Dinosaurus theropoda berukuran sedang dengan cakar besar dan cakar tajam.</item>
+    </string-array>
+
+    <string-array name="jenis1_dino_habitat">
+        <item>Daerah dataran rendah dan hutan berawa di Amerika Utara.</item>
+        <item>Daerah dataran rendah dan padang rumput di Mongolia dan Cina.</item>
+    </string-array>
+
+    <string-array name="jenis2_dino_habitat">
+        <item>Dataran rendah yang luas, hutan lebat dengan tanaman rendah dan luas.</item>
+        <item>Dataran rendah yang luas, dataran yang terbuka dan memiliki akses sumber air yang cukup.</item>
+    </string-array>
+
+    <string-array name="jenis3_dino_habitat">
+        <item>Dataran rendah yang luas, hutan lebat dengan tanaman rendah dan luas.</item>
+        <item>Dataran rendah yang luas, dataran yang terbuka dan memiliki akses sumber air yang cukup.</item>
+    </string-array>
+
+    <string-array name="jenis4_dino_habitat">
+        <item>Dataran terbuka dan hutan tropis</item>
+        <item>Stegosaurus hidup di daerah yang kering dengan vegetasi seperti semak belukar.</item>
+    </string-array>
+
+    <string-array name="jenis5_dino_habitat">
+        <item>Ankylosaurus mendiami dataran rendah, hutan terbuka, daerah dataran tinggi dengan banyak vegetasi.</item>
+    </string-array>
+
+    <string-array name="jenis6_dino_habitat">
+        <item>Protoceratops hidup di dataran tinggi, daerah semi-gurun dan semak belukar.</item>
+        <item>Dataran rendah seperti savana modern dan hutan-hutan berdaun lebar.</item>
+    </string-array>
+
+    <string-array name="jenis7_dino_habitat">
+        <item>Mendiami dataran banjir yang luas dengan vegetasi seperti padang rumput, sungai, dan hutan rawa-rawa.</item>
+        <item>Dataran rendah, terutama di hutan-hutan yang subur dengan akses ke air.</item>
+        <item>Dataran rendah dan dataran banjir dengan keberadaan sungai dan vegetasi</item>
+    </string-array>
+
+    <string-array name="jenis8_dino_habitat">
+        <item>Hidup di daerah yang beriklim sedang</item>
+    </string-array>
+
+    <string-array name="jenis1_dino_perilaku">
+        <item>Pemburu soliter atau berburu dalam kelompok kecil</item>
+        <item>Pemburu soliter atau berburu dalam kelompok kecil</item>
+    </string-array>
+
+    <string-array name="jenis2_dino_perilaku">
+        <item>Hidup dalam kelompok besar atau kawanan untuk melindungi diri dari pemangsa</item>
+        <item>Hidup dalam kelompok besar dan berpindah-pindah secara periodik</item>
+    </string-array>
+
+    <string-array name="jenis3_dino_perilaku">
+        <item>Hidup secara soliter atau dalam kelompok kecil</item>
+        <item>Memiliki perilaku yang lebih lambat dibandingkan beberapa dinosaurus lain</item>
+    </string-array>
+
+    <string-array name="jenis4_dino_perilaku">
+        <item>Hidup secara berkelompok untuk melindungi diri dari predator</item>
+        <item>Hidup secara soliter atau dalam kelompok kecil</item>
+    </string-array>
+
+    <string-array name="jenis5_dino_perilaku">
+        <item>Bertahan yang kuat, mungkin menggunakan tulang belakang berduri mereka</item>
+    </string-array>
+
+    <string-array name="jenis6_dino_perilaku">
+        <item>Memiliki perilaku sosial, hidup dalam kelompok dan mencari makanan bersama-sama</item>
+        <item>Hewan herbivora soliter atau hidup dalam kelompok kecil</item>
+    </string-array>
+
+    <string-array name="jenis7_dino_perilaku">
+        <item>Hewan herbivora yang mungkin hidup dalam kelompok besar dan bergerak secara musiman</item>
+        <item>Hidup dalam kelompok besar, terutama selama musim kawin dan perkembangbiakan</item>
+        <item>Hidup dalam kelompok besar dan mungkin menggunakan bunyi terompet mereka untuk berkomunikasi</item>
+    </string-array>
+
+    <string-array name="jenis8_dino_perilaku">
+        <item>Memiliki perilaku mencari makanan dengan cakar mereka untuk meraih dedaunan dan buah-buahan tinggi</item>
+    </string-array>
+
+    <string-array name="jenis1_dino_periode">
+        <item>Zaman Mesozoikum</item>
+        <item>Zaman Mesozoikum</item>
+    </string-array>
+
+    <string-array name="jenis2_dino_periode">
+        <item>Zaman Jurassic</item>
+        <item>Zaman Jurassic</item>
+    </string-array>
+
+    <string-array name="jenis3_dino_periode">
+        <item>Zaman Cretaceous Awal hingga Pertengahan</item>
+        <item>Zaman Cretaceous Awal hingga Akhir</item>
+    </string-array>
+
+    <string-array name="jenis4_dino_periode">
+        <item>Zaman Jurassic</item>
+        <item>Zaman Jurassic</item>
+    </string-array>
+
+    <string-array name="jenis5_dino_periode">
+        <item>Zaman Cretaceous Akhir</item>
+    </string-array>
+
+    <string-array name="jenis6_dino_periode">
+        <item>Zaman Cretaceous Awal hingga Tengah</item>
+        <item>Zaman Cretaceous Akhir</item>
+    </string-array>
+
+    <string-array name="jenis7_dino_periode">
+        <item>Zaman Cretaceous Akhir</item>
+        <item>Zaman Cretaceous Akhir</item>
+        <item>Zaman Cretaceous Akhir</item>
+    </string-array>
+
+    <string-array name="jenis8_dino_periode">
+        <item>Zaman Cretaceous Awal</item>
+    </string-array>
+
+    <string-array name="jenis1_dino_family">
+        <item>Theropoda</item>
+        <item>Theropoda</item>
+    </string-array>
+
+    <string-array name="jenis2_dino_family">
+        <item>Sauropoda</item>
+        <item>Sauropoda</item>
+    </string-array>
+
+    <string-array name="jenis3_dino_family">
+        <item>Ornithopoda</item>
+        <item>Ornithopoda</item>
+    </string-array>
+
+    <string-array name="jenis4_dino_family">
+        <item>Stegosauria</item>
+        <item>Stegosauria</item>
+    </string-array>
+
+    <string-array name="jenis5_dino_family">
+        <item>Ankylosauria</item>
+    </string-array>
+
+    <string-array name="jenis6_dino_family">
+        <item>Ceratopsia</item>
+        <item>Ceratopsia</item>
+    </string-array>
+
+    <string-array name="jenis7_dino_family">
+        <item>Hadrosauridae</item>
+        <item>Hadrosauridae</item>
+        <item>Hadrosauridae</item>
+    </string-array>
+
+    <string-array name="jenis8_dino_family">
+        <item>Therizinosauria</item>
+    </string-array>
+
+    <string-array name="jenis1_dino_karakteristik">
+        <item>Dinosaurus karnivora dengan gigi tajam dan cakar yang kuat.</item>
+        <item>Dinosaurus karnivora dengan gigi tajam dan cakar yang kuat.</item>
+    </string-array>
+
+    <string-array name="jenis2_dino_karakteristik">
+        <item>Dinosaurus herbivora dengan leher panjang dan tubuh besar.</item>
+        <item>Dinosaurus herbivora dengan leher panjang dan tubuh besar.</item>
+    </string-array>
+
+    <string-array name="jenis3_dino_karakteristik">
+        <item>Tubuh ringan, kaki panjang, dan gigi-gigi yang runcing untuk memakan tumbuhan</item>
+        <item>Memiliki cakar yang kuat di depan kaki, moncong yang lebar dengan gigi-gigi untuk merobek tanaman</item>
+    </string-array>
+
+    <string-array name="jenis4_dino_karakteristik">
+        <item>Dikenal dengan punggungnya yang dilengkapi dengan deretan besar duri.</item>
+        <item>Memiliki lempeng tulang besar di punggungnya dan ekor dan dilengkapi dengan sepasang cula besar.</item>
+    </string-array>
+
+    <string-array name="jenis5_dino_karakteristik">
+        <item>Punya pelindung yang kuat dan berduri di punggungnya serta alat pemukul di ujung ekornya</item>
+    </string-array>
+
+    <string-array name="jenis6_dino_karakteristik">
+        <item>Dikenal dengan tengkoraknya yang dilengkapi dengan paruh mirip paruh burung</item>
+        <item>Memiliki tiga tanduk besar di atas tengkoraknya, serta cakar-cakar kuat untuk mempertahankan diri</item>
+    </string-array>
+
+    <string-array name="jenis7_dino_karakteristik">
+        <item>Dikenal dengan rahangnya yang kuat dengan ratusan gigi untuk mengunyah tanaman</item>
+        <item>Dilengkapi dengan paruh yang kuat dan gigi-gigi untuk mencabut dan mengunyah tanaman</item>
+        <item>Memiliki rongga bentuk tonjolan besar di tengkoraknya, digunakan untuk bersuara</item>
+    </string-array>
+
+    <string-array name="jenis8_dino_karakteristik">
+        <item>Memiliki cakar-cakar besar yang mungkin digunakan untuk merobek tumbuhan atau mangsa</item>
     </string-array>
 
 </resources>

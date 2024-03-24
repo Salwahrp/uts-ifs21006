@@ -1,25 +1,28 @@
 package com.ifs21006.dinopedia
 
 import android.R
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.ifs21006.dinopedia.databinding.ActivityDetailBinding
 
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetailBinding
-    private var dino: Dino? = null
+    private var dino: Satuan? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //Mengambil data dino dari intent
         dino = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra(EXTRA_DINO,
-                Dino::class.java)
+                Satuan::class.java)
         }
         else {
             @Suppress("DEPRECATION")
@@ -28,14 +31,15 @@ class DetailActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         if (dino != null) {
-            supportActionBar?.title = "Makanan ${dino!!.name}"
+            supportActionBar?.title = "Dino ${dino!!.name}"
             loadData(dino!!)
         }
         else {
             finish()
         }
     }
-    private fun loadData(dino: Dino)
+
+    private fun loadData(dino: Satuan)
     {
         binding .iPhotoDino.setImageResource(dino.photo)
         binding .tNamaDino.setText(dino.name)
